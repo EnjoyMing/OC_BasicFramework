@@ -1,0 +1,45 @@
+//
+//  PrefixHeader.pch
+//  objective-c
+//
+//  Created by silence on 2020/9/22.
+//  Copyright © 2020 Silence. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+//在这里包括应该包含在所有编译单元中的任何系统框架和库头。
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//您还需要设置一个或多个目标的前缀头构建设置来引用此文件。
+
+#import "MacroDefinition.h"
+#import "SNCustomNaviVC.h"
+#import "SNCustomBaseVC.h"
+#import "SNCustomTabBarVC.h"
+#import "SNInitObject.h"//初始化
+#import "SNNetworking.h"//网络层
+#import "SNHUD.h"//菊花层
+
+
+//扩展
+#import "UIView+SNView.h"
+#import "UIColor+SNColor.h"
+#import "UIImage+SNImage.h"
+#import "NSString+SNString.h"
+#import "UIButton+SNButton.h"
+#import "UITextField+SNTextField.h"
+#import "UITextView+SNTextView.h"
+#import "UIImageView+SNImageView.h"
+
+//cocoapods管理框架
+#import "Masonry.h"
+#import <MJRefresh/MJRefresh.h>
+#import <MJExtension/MJExtension.h>
+#import <SDWebImage/SDWebImage.h>
+#import <AFNetworking/AFNetworking.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,6 @@
+framework module Pods_objective_c_objective_cUITests {
+  umbrella header "Pods-objective-c-objective-cUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

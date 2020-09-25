@@ -1,0 +1,6 @@
+framework module Pods_objective_cTests {
+  umbrella header "Pods-objective-cTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>className</key>
+		<string>SNHomePageVC</string>
+		<key>titleName</key>
+		<string>首页</string>
+		<key>selectedImg</key>
+		<string>sn_tabbar_home_selected_img</string>
+		<key>normallImg</key>
+		<string>sn_tabbar_home_normall_img</string>
+	</dict>
+	<dict>
+		<key>className</key>
+		<string>SNFocusOnPageVC</string>
+		<key>titleName</key>
+		<string>关注</string>
+		<key>selectedImg</key>
+		<string>sn_tabbar_focus_selected_img</string>
+		<key>normallImg</key>
+		<string>sn_tabbar_focus_normall_img</string>
+	</dict>
+	<dict>
+		<key>className</key>
+		<string>SNMiddlePageVC</string>
+		<key>titleName</key>
+		<string>开播</string>
+		<key>selectedImg</key>
+		<string>img</string>
+		<key>normallImg</key>
+		<string>img</string>
+	</dict>
+	<dict>
+		<key>className</key>
+		<string>SNMessagePageVC</string>
+		<key>titleName</key>
+		<string>消息</string>
+		<key>selectedImg</key>
+		<string>sn_tabbar_msg_selected_img</string>
+		<key>normallImg</key>
+		<string>sn_tabbar_msg_normall_img</string>
+	</dict>
+	<dict>
+		<key>className</key>
+		<string>SNMinePageVC</string>
+		<key>titleName</key>
+		<string>我的</string>
+		<key>selectedImg</key>
+		<string>sn_tabbar_mine_selected_img</string>
+		<key>normallImg</key>
+		<string>sn_tabbar_mine_normall_img</string>
+	</dict>
+</array>
+</plist>
