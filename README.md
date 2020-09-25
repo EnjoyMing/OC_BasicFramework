@@ -1,2 +1,3 @@
 # OC_BasicFramework
-Simple construction of iOS infrastructure framework（iOS基础框架的简单搭建）
+iOS基础架构框架的简单建构（iOS基础架构的简单建构）
+为了以后新项目能够快速推进和添加一些常用工具类
