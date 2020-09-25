@@ -26,6 +26,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [SNCustomTabBarVC new];
     [self.window makeKeyAndVisible];
+    [[SNInitObject share] setupLaunchImage:self.window];
 }
 
 

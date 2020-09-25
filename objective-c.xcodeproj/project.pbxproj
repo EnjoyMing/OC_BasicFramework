@@ -1107,7 +1107,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2F6TC348Z;
-				GCC_PREFIX_HEADER = "/Users/singlequeen/Desktop/silence/project/OC/objective-c/objective-c/SupportFiles/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/singlequeen/Desktop/silence/project/OC_BasicFramework/objective-c/SupportFiles/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/objective-c/SupportFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1127,7 +1127,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2F6TC348Z;
-				GCC_PREFIX_HEADER = "/Users/singlequeen/Desktop/silence/project/OC/objective-c/objective-c/SupportFiles/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/singlequeen/Desktop/silence/project/OC_BasicFramework/objective-c/SupportFiles/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/objective-c/SupportFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
