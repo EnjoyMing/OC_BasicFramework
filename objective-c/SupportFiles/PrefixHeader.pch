@@ -21,7 +21,8 @@
 #import "SNInitObject.h"//初始化
 #import "SNNetworking.h"//网络层
 #import "SNHUD.h"//菊花层
-
+#import "SNPagerView.h"//pageView
+#import "SNGuideView.h"//引导页
 
 //扩展
 #import "UIView+SNView.h"

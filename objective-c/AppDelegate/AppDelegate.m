@@ -27,6 +27,7 @@
         [self.window makeKeyAndVisible];
         self.window.rootViewController = [SNCustomTabBarVC new];
         [[SNInitObject share] setupLaunchImage:self.window];
+//        [SNGuideView showGuideView];
     }
     NSLog(@"%d",navi_h);
     return YES;

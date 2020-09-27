@@ -46,6 +46,21 @@
     NSPredicate *regExPredicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegEx];
     return [regExPredicate evaluateWithObject:[self lowercaseString]];
 }
+//判断字符串为空
+-(BOOL)isEmptyString {
+    if (!self) {
+        return YES;
+    }
+    if ([self isKindOfClass:[NSNull class]]) {
+        return YES;
+    }
+    NSCharacterSet *set = [NSCharacterSet whitespaceAndNewlineCharacterSet];
+    NSString *trimmedStr = [self stringByTrimmingCharactersInSet:set];
+    if (!trimmedStr.length) {
+        return YES;
+    }
+    return NO;
+}
 //Base64
 - (NSString *)base64 {
     // Create NSData object

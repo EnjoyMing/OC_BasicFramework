@@ -135,4 +135,48 @@
     UIGraphicsEndImageContext();
     return theImage;
 }
+/* 给图片添加图片水印
+* @param backgroundImage   背景图片
+* @param markName 右下角的水印图片
+*/
++ (instancetype)waterMarkWithImageName:(NSString *)backgroundImage
+                      andMarkImageName:(NSString *)markName {
+    UIImage *bgImage = [UIImage imageNamed:backgroundImage];
+    UIGraphicsBeginImageContextWithOptions(bgImage.size, NO, 0.0);
+    [bgImage drawInRect:CGRectMake(0, 0, bgImage.size.width, bgImage.size.height)];
+    UIImage *waterImage = [UIImage imageNamed:markName];
+    CGFloat scale = 0.3;
+    CGFloat margin = 5;
+    CGFloat waterW = waterImage.size.width * scale;
+    CGFloat waterH = waterImage.size.height * scale;
+    CGFloat waterX = bgImage.size.width - waterW - margin;
+    CGFloat waterY = bgImage.size.height - waterH - margin;
+    [waterImage drawInRect:CGRectMake(waterX, waterY, waterW, waterH)];
+    UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return newImage;
+}
+/* 给图片添加文字水印
+ * @param image 背景图片
+ * @param text 待添加的文本
+ * @param point 起点
+ * @param attributed 待添加的文本特性
+*/
++ (UIImage *)jx_WaterImageWithImage:(UIImage *)image
+                               text:(NSString *)text
+                          textPoint:(CGPoint)point
+                   attributedString:(NSDictionary * )attributed{
+    //1.开启上下文
+    UIGraphicsBeginImageContextWithOptions(image.size, NO, 0);
+    //2.绘制图片
+    [image drawInRect:CGRectMake(0, 0, image.size.width, image.size.height)];
+    //添加水印文字
+    [text drawAtPoint:point withAttributes:attributed];
+    //3.从上下文中获取新图片
+    UIImage * newImage = UIGraphicsGetImageFromCurrentImageContext();
+    //4.关闭图形上下文
+    UIGraphicsEndImageContext();
+    //返回图片
+    return newImage;
+}
 @end

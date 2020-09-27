@@ -39,6 +39,13 @@
 		88657DD8251DCCC900B0B96D /* SNMinePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88657DD7251DCCC900B0B96D /* SNMinePageView.m */; };
 		88657DDB251DCCE400B0B96D /* SNBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88657DDA251DCCE400B0B96D /* SNBaseModel.m */; };
 		88657DDE251DCD0100B0B96D /* SNTempObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 88657DDD251DCD0100B0B96D /* SNTempObject.m */; };
+		88657E212520234800B0B96D /* SNLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88657E202520234800B0B96D /* SNLoginController.m */; };
+		88657E24252023CE00B0B96D /* SNGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88657E23252023CE00B0B96D /* SNGuideView.m */; };
+		88657E28252023F700B0B96D /* SNGuideImgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88657E26252023F700B0B96D /* SNGuideImgCell.m */; };
+		88657E29252023F700B0B96D /* SNGuideImgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88657E27252023F700B0B96D /* SNGuideImgCell.xib */; };
+		88657E302520267800B0B96D /* SNPagerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 88657E2F2520267800B0B96D /* SNPagerControl.m */; };
+		88657E33252026BD00B0B96D /* SNViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 88657E32252026BD00B0B96D /* SNViewLayout.m */; };
+		88657E362520271200B0B96D /* SNPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88657E352520271200B0B96D /* SNPagerView.m */; };
 		88731D38251AE42F00130DE7 /* SNHomePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 88731D37251AE42F00130DE7 /* SNHomePageVC.m */; };
 		88731D3B251AE45C00130DE7 /* SNFocusOnPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 88731D3A251AE45C00130DE7 /* SNFocusOnPageVC.m */; };
 		88731D3E251AE46D00130DE7 /* SNMiddlePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 88731D3D251AE46D00130DE7 /* SNMiddlePageVC.m */; };
@@ -144,6 +151,19 @@
 		88657DDA251DCCE400B0B96D /* SNBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNBaseModel.m; sourceTree = "<group>"; };
 		88657DDC251DCD0100B0B96D /* SNTempObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNTempObject.h; sourceTree = "<group>"; };
 		88657DDD251DCD0100B0B96D /* SNTempObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNTempObject.m; sourceTree = "<group>"; };
+		88657E1F2520234800B0B96D /* SNLoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNLoginController.h; sourceTree = "<group>"; };
+		88657E202520234800B0B96D /* SNLoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNLoginController.m; sourceTree = "<group>"; };
+		88657E22252023CE00B0B96D /* SNGuideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNGuideView.h; sourceTree = "<group>"; };
+		88657E23252023CE00B0B96D /* SNGuideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNGuideView.m; sourceTree = "<group>"; };
+		88657E25252023F700B0B96D /* SNGuideImgCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNGuideImgCell.h; sourceTree = "<group>"; };
+		88657E26252023F700B0B96D /* SNGuideImgCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNGuideImgCell.m; sourceTree = "<group>"; };
+		88657E27252023F700B0B96D /* SNGuideImgCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SNGuideImgCell.xib; sourceTree = "<group>"; };
+		88657E2E2520267800B0B96D /* SNPagerControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNPagerControl.h; sourceTree = "<group>"; };
+		88657E2F2520267800B0B96D /* SNPagerControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNPagerControl.m; sourceTree = "<group>"; };
+		88657E31252026BD00B0B96D /* SNViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNViewLayout.h; sourceTree = "<group>"; };
+		88657E32252026BD00B0B96D /* SNViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNViewLayout.m; sourceTree = "<group>"; };
+		88657E342520271200B0B96D /* SNPagerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNPagerView.h; sourceTree = "<group>"; };
+		88657E352520271200B0B96D /* SNPagerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNPagerView.m; sourceTree = "<group>"; };
 		88731D36251AE42F00130DE7 /* SNHomePageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNHomePageVC.h; sourceTree = "<group>"; };
 		88731D37251AE42F00130DE7 /* SNHomePageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNHomePageVC.m; sourceTree = "<group>"; };
 		88731D39251AE45C00130DE7 /* SNFocusOnPageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNFocusOnPageVC.h; sourceTree = "<group>"; };
@@ -271,6 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				88302C5B2519C97C00651439 /* Base */,
+				88302C5D2519C99500651439 /* Views */,
 				88302C602519C9C600651439 /* Tools */,
 				88657DA5251D9E6900B0B96D /* Network */,
 				88302C5C2519C98800651439 /* Extension */,
@@ -295,6 +316,7 @@
 		88302C5525199AEB00651439 /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
+				88657E1B2520229100B0B96D /* Login */,
 				88731D1D251AE2FA00130DE7 /* Home */,
 				88731D1E251AE30500130DE7 /* FocusOn */,
 				88731D1F251AE31100130DE7 /* Middle */,
@@ -319,7 +341,6 @@
 			isa = PBXGroup;
 			children = (
 				88302C5E2519C99C00651439 /* Controllers */,
-				88302C5D2519C99500651439 /* Views */,
 				88302C5F2519C9A500651439 /* Object */,
 			);
 			path = Base;
@@ -351,6 +372,7 @@
 		88302C5D2519C99500651439 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				88657E2A2520262700B0B96D /* SNPageView */,
 				88731D45251B474200130DE7 /* SNNodataView.h */,
 				88731D46251B474200130DE7 /* SNNodataView.m */,
 			);
@@ -405,6 +427,57 @@
 				88657DA7251D9E9B00B0B96D /* SNNetworking.m */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		88657E1B2520229100B0B96D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				88657E1C252022FA00B0B96D /* VC */,
+				88657E1D252022FF00B0B96D /* View */,
+				88657E1E2520230500B0B96D /* Cell */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		88657E1C252022FA00B0B96D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				88657E1F2520234800B0B96D /* SNLoginController.h */,
+				88657E202520234800B0B96D /* SNLoginController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		88657E1D252022FF00B0B96D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88657E22252023CE00B0B96D /* SNGuideView.h */,
+				88657E23252023CE00B0B96D /* SNGuideView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88657E1E2520230500B0B96D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				88657E25252023F700B0B96D /* SNGuideImgCell.h */,
+				88657E26252023F700B0B96D /* SNGuideImgCell.m */,
+				88657E27252023F700B0B96D /* SNGuideImgCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		88657E2A2520262700B0B96D /* SNPageView */ = {
+			isa = PBXGroup;
+			children = (
+				88657E342520271200B0B96D /* SNPagerView.h */,
+				88657E352520271200B0B96D /* SNPagerView.m */,
+				88657E2E2520267800B0B96D /* SNPagerControl.h */,
+				88657E2F2520267800B0B96D /* SNPagerControl.m */,
+				88657E31252026BD00B0B96D /* SNViewLayout.h */,
+				88657E32252026BD00B0B96D /* SNViewLayout.m */,
+			);
+			path = SNPageView;
 			sourceTree = "<group>";
 		};
 		88731D1D251AE2FA00130DE7 /* Home */ = {
@@ -777,6 +850,7 @@
 				88302C2C2519959400651439 /* LaunchScreen.storyboard in Resources */,
 				88302C292519959400651439 /* Assets.xcassets in Resources */,
 				88302C6E2519D79400651439 /* TabBarItemList.plist in Resources */,
+				88657E29252023F700B0B96D /* SNGuideImgCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -906,6 +980,7 @@
 			files = (
 				88731D47251B474200130DE7 /* SNNodataView.m in Sources */,
 				88731D3E251AE46D00130DE7 /* SNMiddlePageVC.m in Sources */,
+				88657E362520271200B0B96D /* SNPagerView.m in Sources */,
 				88731D3B251AE45C00130DE7 /* SNFocusOnPageVC.m in Sources */,
 				88731D53251B50D200130DE7 /* UIButton+SNButton.m in Sources */,
 				88657DD2251DCCAE00B0B96D /* SNMinePageModel.m in Sources */,
@@ -924,12 +999,15 @@
 				88731D41251AE48100130DE7 /* SNMessagePageVC.m in Sources */,
 				88731D4D251B50A500130DE7 /* NSString+SNString.m in Sources */,
 				88302C2F2519959400651439 /* main.m in Sources */,
+				88657E24252023CE00B0B96D /* SNGuideView.m in Sources */,
 				88657DBD251DCC2600B0B96D /* SNFocusOnPageModel.m in Sources */,
 				88731D5F251B512400130DE7 /* UIColor+SNColor.m in Sources */,
 				88731D62251B514900130DE7 /* UIImage+SNImage.m in Sources */,
 				88657DCF251DCC9700B0B96D /* SNMessagePageModel.m in Sources */,
 				88731D56251B50E800130DE7 /* UIImageView+SNImageView.m in Sources */,
+				88657E302520267800B0B96D /* SNPagerControl.m in Sources */,
 				88302C212519959400651439 /* SceneDelegate.m in Sources */,
+				88657E212520234800B0B96D /* SNLoginController.m in Sources */,
 				88731D44251AE48E00130DE7 /* SNMinePageVC.m in Sources */,
 				88657DC6251DCC6100B0B96D /* SNMiddlePageView.m in Sources */,
 				88657DC0251DCC4600B0B96D /* SNMiddlePageModel.m in Sources */,
@@ -940,10 +1018,12 @@
 				88657DAE251DCBBB00B0B96D /* SNHomePageView.m in Sources */,
 				88657DB4251DCBE400B0B96D /* SNHomePageModel.m in Sources */,
 				88657DC9251DCC7E00B0B96D /* SNMessagePageView.m in Sources */,
+				88657E28252023F700B0B96D /* SNGuideImgCell.m in Sources */,
 				88657DAB251DC7D500B0B96D /* SNHUD.m in Sources */,
 				88657DB1251DCBCF00B0B96D /* SNHomePageCell.m in Sources */,
 				88302C632519CA2000651439 /* SNCustomBaseVC.m in Sources */,
 				88657DDE251DCD0100B0B96D /* SNTempObject.m in Sources */,
+				88657E33252026BD00B0B96D /* SNViewLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

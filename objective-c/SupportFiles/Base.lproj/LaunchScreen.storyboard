@@ -16,16 +16,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImg" translatesAutoresizingMaskIntoConstraints="NO" id="iIC-Cn-YPa">
+                            <imageView clipsSubviews="YES" tag="2020" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImg" translatesAutoresizingMaskIntoConstraints="NO" id="iIC-Cn-YPa">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
+                            <view alpha="0.5" tag="2021" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hyu-Po-xdE">
+                                <rect key="frame" x="318" y="51" width="86" height="35"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" tag="2022" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tss-pm-K8i">
+                                <rect key="frame" x="328" y="54" width="66" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="rfy-zt-hdh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="跳过 | 05s"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="hyu-Po-xdE" firstAttribute="top" secondItem="Tss-pm-K8i" secondAttribute="top" constant="-3" id="2bB-9Y-oO2"/>
+                            <constraint firstAttribute="trailing" secondItem="Tss-pm-K8i" secondAttribute="trailing" constant="20" id="BL8-7y-g1l"/>
                             <constraint firstAttribute="bottom" secondItem="iIC-Cn-YPa" secondAttribute="bottom" id="LOe-38-jm7"/>
                             <constraint firstAttribute="trailing" secondItem="iIC-Cn-YPa" secondAttribute="trailing" id="P3d-4r-7fJ"/>
+                            <constraint firstItem="hyu-Po-xdE" firstAttribute="trailing" secondItem="Tss-pm-K8i" secondAttribute="trailing" constant="10" id="YLe-eS-mtW"/>
+                            <constraint firstItem="Tss-pm-K8i" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="drC-lJ-S2j"/>
+                            <constraint firstItem="hyu-Po-xdE" firstAttribute="bottom" secondItem="Tss-pm-K8i" secondAttribute="bottom" constant="3" id="mTG-bx-bFz"/>
                             <constraint firstItem="iIC-Cn-YPa" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="tmU-57-gMG"/>
                             <constraint firstItem="iIC-Cn-YPa" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="yA4-gb-h9X"/>
+                            <constraint firstItem="hyu-Po-xdE" firstAttribute="leading" secondItem="Tss-pm-K8i" secondAttribute="leading" constant="-10" id="z55-xU-3vI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

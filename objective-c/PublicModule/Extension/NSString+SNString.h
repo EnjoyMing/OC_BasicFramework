@@ -11,15 +11,23 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString (SNString)
-//TODO:MD5加密
+
+/* MD5加密 */
 - (NSString *)md5HexDigest;
-//base64Decoded
+
+/* base64Decoded */
 - (NSString *)base64Decoded;
-//Base64
+
+/* Base64 */
 - (NSString *)base64;
-//是否是邮箱格式
+
+/* 是否是邮箱格式 */
 - (BOOL)isEmail;
-//TODO:计算字符串宽高
+
+/* 判断字符串为空 */
+-(BOOL)isEmptyString;
+
+/* 计算字符串宽高 */
 - (CGSize)boundingRectWithSize:(CGSize)size
                   withTextFont:(UIFont *)font;
 @end

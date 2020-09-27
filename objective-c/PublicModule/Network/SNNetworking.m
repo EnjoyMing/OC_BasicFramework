@@ -42,7 +42,10 @@ static SNNetworking * shared;
                     [subscriber sendNext:jsondic];
                     [subscriber sendCompleted];
                 }else{
-                    
+                    if (isShow) {
+                        [SNHUD showError:@"非json格式数据"];
+                        [SNHUD hiddenWithDelay:1.5 Block:^{}];
+                    }
                 }
             } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
                 if (isShow) {
@@ -82,7 +85,10 @@ static SNNetworking * shared;
                     [subscriber sendNext:jsondic];
                     [subscriber sendCompleted];
                 }else{
-                    
+                    if (isShow) {
+                        [SNHUD showError:@"非json格式数据"];
+                        [SNHUD hiddenWithDelay:1.5 Block:^{}];
+                    }
                 }
             } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
                 if (isShow) {
@@ -100,7 +106,11 @@ static SNNetworking * shared;
     }];
 }
 
-//传参接口Post
+/* 传参接口POST
+ * @param urlStr 网络请求地址
+ * @param parameters 网络请求参数
+ * @param isShow 是否展示菊花
+*/
 -(RACSignal *)rac_signalRequestWithPostUrl:(NSString *)urlStr
                                  withParam:(NSDictionary *)parameters
                              isShowLoading:(BOOL)isShow {
@@ -109,7 +119,12 @@ static SNNetworking * shared;
         return responseObject;// 映射为理想数据模型
     }];
 }
-//传参接口Get
+
+/* 传参接口GET
+* @param urlStr 网络请求地址
+* @param parameters 网络请求参数
+* @param isShow 是否展示菊花
+*/
 -(RACSignal *)rac_signalRequestWithGetUrl:(NSString *)urlStr
                                 withParam:(NSDictionary *)parameters
                             isShowLoading:(BOOL)isShow {
