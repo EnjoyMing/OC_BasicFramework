@@ -46,6 +46,7 @@
 		88657E302520267800B0B96D /* SNPagerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 88657E2F2520267800B0B96D /* SNPagerControl.m */; };
 		88657E33252026BD00B0B96D /* SNViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 88657E32252026BD00B0B96D /* SNViewLayout.m */; };
 		88657E362520271200B0B96D /* SNPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88657E352520271200B0B96D /* SNPagerView.m */; };
+		88657E3B252181D900B0B96D /* SNUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 88657E3A252181D900B0B96D /* SNUserInfo.m */; };
 		88731D38251AE42F00130DE7 /* SNHomePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 88731D37251AE42F00130DE7 /* SNHomePageVC.m */; };
 		88731D3B251AE45C00130DE7 /* SNFocusOnPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 88731D3A251AE45C00130DE7 /* SNFocusOnPageVC.m */; };
 		88731D3E251AE46D00130DE7 /* SNMiddlePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 88731D3D251AE46D00130DE7 /* SNMiddlePageVC.m */; };
@@ -164,6 +165,8 @@
 		88657E32252026BD00B0B96D /* SNViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNViewLayout.m; sourceTree = "<group>"; };
 		88657E342520271200B0B96D /* SNPagerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNPagerView.h; sourceTree = "<group>"; };
 		88657E352520271200B0B96D /* SNPagerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNPagerView.m; sourceTree = "<group>"; };
+		88657E39252181D900B0B96D /* SNUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNUserInfo.h; sourceTree = "<group>"; };
+		88657E3A252181D900B0B96D /* SNUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNUserInfo.m; sourceTree = "<group>"; };
 		88731D36251AE42F00130DE7 /* SNHomePageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNHomePageVC.h; sourceTree = "<group>"; };
 		88731D37251AE42F00130DE7 /* SNHomePageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNHomePageVC.m; sourceTree = "<group>"; };
 		88731D39251AE45C00130DE7 /* SNFocusOnPageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNFocusOnPageVC.h; sourceTree = "<group>"; };
@@ -435,6 +438,7 @@
 				88657E1C252022FA00B0B96D /* VC */,
 				88657E1D252022FF00B0B96D /* View */,
 				88657E1E2520230500B0B96D /* Cell */,
+				88657E38252181B100B0B96D /* Model */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -478,6 +482,15 @@
 				88657E32252026BD00B0B96D /* SNViewLayout.m */,
 			);
 			path = SNPageView;
+			sourceTree = "<group>";
+		};
+		88657E38252181B100B0B96D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88657E39252181D900B0B96D /* SNUserInfo.h */,
+				88657E3A252181D900B0B96D /* SNUserInfo.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		88731D1D251AE2FA00130DE7 /* Home */ = {
@@ -981,6 +994,7 @@
 				88731D47251B474200130DE7 /* SNNodataView.m in Sources */,
 				88731D3E251AE46D00130DE7 /* SNMiddlePageVC.m in Sources */,
 				88657E362520271200B0B96D /* SNPagerView.m in Sources */,
+				88657E3B252181D900B0B96D /* SNUserInfo.m in Sources */,
 				88731D3B251AE45C00130DE7 /* SNFocusOnPageVC.m in Sources */,
 				88731D53251B50D200130DE7 /* UIButton+SNButton.m in Sources */,
 				88657DD2251DCCAE00B0B96D /* SNMinePageModel.m in Sources */,

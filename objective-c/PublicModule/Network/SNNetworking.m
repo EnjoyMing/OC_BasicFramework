@@ -110,7 +110,7 @@ static SNNetworking * shared;
  * @param urlStr 网络请求地址
  * @param parameters 网络请求参数
  * @param isShow 是否展示菊花
-*/
+ */
 -(RACSignal *)rac_signalRequestWithPostUrl:(NSString *)urlStr
                                  withParam:(NSDictionary *)parameters
                              isShowLoading:(BOOL)isShow {
@@ -121,10 +121,10 @@ static SNNetworking * shared;
 }
 
 /* 传参接口GET
-* @param urlStr 网络请求地址
-* @param parameters 网络请求参数
-* @param isShow 是否展示菊花
-*/
+ * @param urlStr 网络请求地址
+ * @param parameters 网络请求参数
+ * @param isShow 是否展示菊花
+ */
 -(RACSignal *)rac_signalRequestWithGetUrl:(NSString *)urlStr
                                 withParam:(NSDictionary *)parameters
                             isShowLoading:(BOOL)isShow {

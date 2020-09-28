@@ -50,6 +50,8 @@ SNPagerViewDataSource
     return YES;
 }
 - (void)deleteGuideView {
+    [[NSUserDefaults standardUserDefaults] setValue:@"Lanch_Guide_view" forKey:Lanch_Guide_view];
+    [[NSUserDefaults standardUserDefaults] synchronize];
     self.hidden = YES;
     [self removeFromSuperview];
 }

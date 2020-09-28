@@ -19,11 +19,11 @@
                             <imageView clipsSubviews="YES" tag="2020" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImg" translatesAutoresizingMaskIntoConstraints="NO" id="iIC-Cn-YPa">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <view alpha="0.5" tag="2021" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hyu-Po-xdE">
+                            <view hidden="YES" alpha="0.5" tag="2021" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hyu-Po-xdE">
                                 <rect key="frame" x="318" y="51" width="86" height="35"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <button opaque="NO" tag="2022" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tss-pm-K8i">
+                            <button hidden="YES" opaque="NO" tag="2022" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tss-pm-K8i">
                                 <rect key="frame" x="328" y="54" width="66" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="rfy-zt-hdh"/>

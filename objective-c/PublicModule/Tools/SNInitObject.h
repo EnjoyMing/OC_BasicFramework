@@ -18,8 +18,14 @@ NS_ASSUME_NONNULL_BEGIN
 //TODO:初始化裤
 -(void)init_custom;
 
+//TODO:现实引导页还是启动页
+- (void)checkGuideViewOrLaunchView;
+
 //TODO:初始化动态启动图
--(void)setupLaunchImage:(UIWindow *)window;
+-(void)setupLaunchImage;
+
+//TODO:初始化根视图
+- (void)init_rootController;
 
 @end
 

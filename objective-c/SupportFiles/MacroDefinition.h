@@ -20,6 +20,26 @@ iPhone XS Max/11 Pro Max    6.5寸     414 x 896      @3x      1242 x 2688      
 #ifndef MacroDefinition_h
 #define MacroDefinition_h
 
+//TODO:消除 warning
+#define SuppressPerformSelectorLeakWarning(Stuff) \
+do { \
+    _Pragma("clang diagnostic push") \
+    _Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
+    Stuff; \
+    _Pragma("clang diagnostic pop") \
+} while (0)
+/* 使用方法
+ * 1.不需要返回值
+     SuppressPerformSelectorLeakWarning(
+         [_target performSelector:_action withObject:self]
+     );
+ * 2.需要返回值
+     id result;
+     SuppressPerformSelectorLeakWarning(
+         result = [_target performSelector:_action withObject:self]
+     );
+ */
+
 //TODO:自定义打印日志
 #ifdef DEBUG
 #define NSLog(FORMAT, ...) fprintf(stderr,"\nfunction:%s line:%d content:%s\n", __FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
@@ -54,6 +74,13 @@ iPhone XS Max/11 Pro Max    6.5寸     414 x 896      @3x      1242 x 2688      
 //TODO:RGB颜色设置
 #define RGBA_COLOR(R, G, B, A) [UIColor colorWithRed:((R) / 255.0f) green:((G) / 255.0f) blue:((B) / 255.0f) alpha:A]
 #define RGB_COLOR(R, G, B)     [UIColor colorWithRed:((R) / 255.0f) green:((G) / 255.0f) blue:((B) / 255.0f) alpha:1.0f]
+
+
+
+//TODO:沙河存储Key
+#define Lanch_Guide_view @"Lanch_Guide_view"//判断是否显示引导页
+#define Set_Root_Controller @"Set_Root_Controller"//设置根视图
+
 
 #endif /* MacroDefinition_h */
 

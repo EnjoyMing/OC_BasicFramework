@@ -15,6 +15,7 @@ target 'objective-c' do
   pod 'ReactiveObjC'
   pod 'IQKeyboardManager'
   pod 'SVProgressHUD'
+  pod 'SAMKeychain'
   
   target 'objective-cTests' do
     inherit! :search_paths

@@ -19,6 +19,7 @@ PODS:
   - MJExtension (3.2.2)
   - MJRefresh (3.5.0)
   - ReactiveObjC (3.1.1)
+  - SAMKeychain (1.5.3)
   - SDWebImage (5.9.1):
     - SDWebImage/Core (= 5.9.1)
   - SDWebImage/Core (5.9.1)
@@ -31,6 +32,7 @@ DEPENDENCIES:
   - MJExtension
   - MJRefresh
   - ReactiveObjC
+  - SAMKeychain
   - SDWebImage
   - SVProgressHUD
 
@@ -42,6 +44,7 @@ SPEC REPOS:
     - MJExtension
     - MJRefresh
     - ReactiveObjC
+    - SAMKeychain
     - SDWebImage
     - SVProgressHUD
 
@@ -52,9 +55,10 @@ SPEC CHECKSUMS:
   MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   SDWebImage: a990c053fff71e388a10f3357edb0be17929c9c5
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 23d94ec4c481556b581d4eda6b3f82892f6c3280
+PODFILE CHECKSUM: 3350d478bc427abef862844c050e152ceb9c95fc
 
 COCOAPODS: 1.9.3

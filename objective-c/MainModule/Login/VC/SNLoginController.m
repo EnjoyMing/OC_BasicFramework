@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [[NSUserDefaults standardUserDefaults] setValue:@"Root_Controller" forKey:Set_Root_Controller];
 }
 
 /*

@@ -20,14 +20,11 @@
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
     UIWindowScene * windowScene = (UIWindowScene *)scene;
-    [[SNInitObject share] init_custom];
     // Create the window. Be sure to use this initializer and not the frame one.
     self.window = [[UIWindow alloc]initWithWindowScene:windowScene];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [SNCustomTabBarVC new];
     [self.window makeKeyAndVisible];
-    [[SNInitObject share] setupLaunchImage:self.window];
-//    [SNGuideView showGuideView];
+    [[SNInitObject share] checkGuideViewOrLaunchView];
 }
 
 

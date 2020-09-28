@@ -21,13 +21,10 @@
     if (@available(iOS 13.0, *)) {
         
     }else{
-        [[SNInitObject share] init_custom];
         self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
         self.window.backgroundColor = [UIColor whiteColor];
         [self.window makeKeyAndVisible];
-        self.window.rootViewController = [SNCustomTabBarVC new];
-        [[SNInitObject share] setupLaunchImage:self.window];
-//        [SNGuideView showGuideView];
+        [[SNInitObject share] checkGuideViewOrLaunchView];
     }
     NSLog(@"%d",navi_h);
     return YES;
